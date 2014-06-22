@@ -1,0 +1,3 @@
+F:/github/paint/build/CMakeFiles/ALL_BUILD.dir
+F:/github/paint/build/CMakeFiles/MyScad.dir
+F:/github/paint/build/CMakeFiles/ZERO_CHECK.dir

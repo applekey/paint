@@ -1,0 +1,41 @@
+﻿Build started 6/22/2014 1:25:32 AM.
+     1>Project "F:\github\paint\build\MyScad.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule F:/github/paint/CMakeLists.txt
+         CMake does not need to re-run because F:\github\paint\build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"F:\github\paint\glfw-3.0.4.bin.WIN32\include\GLFW" /I"F:\github\paint\glew-1.10.0\include" /I"F:\github\paint\glm-0.9.4.0" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"MyScad.dir\Debug\\" /Fd"MyScad.dir\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt  -std=c99 ..\main.cpp ObjLoader.cpp ..\helperClass.cpp
+     1>cl : Command line warning D9002: ignoring unknown option '-std=c99'
+         main.cpp
+     1>f:\github\paint\controls.h(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>f:\github\paint\controls.h(85): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\controls.h(91): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\controls.h(107): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\controls.h(108): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\controls.h(118): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\github\paint\controls.h(122): warning C4305: '=' : truncation from 'double' to 'float'
+     1>f:\github\paint\controls.h(130): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\controls.h(131): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\controls.h(169): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\controls.h(170): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\controls.h(181): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\controls.h(182): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>f:\github\paint\wave.h(66): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>f:\github\paint\wave.h(72): warning C4244: 'argument' : conversion from 'float' to 'GLuint', possible loss of data
+     1>f:\github\paint\fft.h(81): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\main.cpp(95): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\main.cpp(191): warning C4305: '+=' : truncation from 'double' to 'float'
+         ObjLoader.cpp
+         helperClass.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\github\paint\build\Debug\MyScad.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\glfw-3.0.4.bin.WIN32\lib-msvc110\glfw3.lib" "..\glew-1.10.0\lib\Release\Win32\glew32.lib" glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/github/paint/build/Debug/MyScad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/github/paint/build/Debug/MyScad.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug MyScad.dir\Debug\main.obj
+         MyScad.dir\Debug\ObjLoader.obj
+         MyScad.dir\Debug\helperClass.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         MyScad.vcxproj -> F:\github\paint\build\Debug\MyScad.exe
+     1>Done Building Project "F:\github\paint\build\MyScad.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.33
